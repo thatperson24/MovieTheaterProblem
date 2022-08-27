@@ -1,6 +1,6 @@
-seats/Seat.java
- main.java.seats.Seat
 Main.java
  main.java.Main
 Theater.java
  main.java.Theater
+seats/Seat.java
+ main.java.seats.Seat
