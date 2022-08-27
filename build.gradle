@@ -1,0 +1,30 @@
+apply plugin: 'application'
+apply plugin: 'jacoco'
+
+mainClassName = "main.java.Main"
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  compile "junit:junit:4.12"
+  testImplementation('junit:junit:4.12')
+  compile files('cls/')
+}
+
+task runSim(type: JavaExec) {
+    description 'Runs the Movie Theater simulation'
+    classpath = sourceSets.main.runtimeClasspath
+
+    main = 'main.java.Main'
+    if(project.hasProperty("fileName")) {
+        args(project.getProperty("fileName"));
+    } 
+}
+
+test {
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}

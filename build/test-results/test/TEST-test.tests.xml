@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-04-21T18:16:52" hostname="DESKTOP-4S3GDVP" time="0.026">
+  <properties/>
+  <testcase name="edgeSeatObserverCount" classname="test.tests" time="0.008"/>
+  <testcase name="middleSeatsCount" classname="test.tests" time="0.0"/>
+  <testcase name="seatTakenTest" classname="test.tests" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
